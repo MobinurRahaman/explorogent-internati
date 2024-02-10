@@ -1,6 +1,10 @@
 import * as React from "react";
-import Container from "@mui/material/Container";
+import Header from "@/components/layout/Header";
 
 export default function Home() {
-  return <Container maxWidth="lg">Home</Container>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
