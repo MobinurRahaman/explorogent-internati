@@ -7,6 +7,7 @@ import OurStorySection from "../ourstory/OurStorySection";
 import WhyChooseUsSection from "../whychooseus/WhyChooseUsSection";
 import DigitalServicesSection from "../digitalservices/DigitalServicesSection";
 import SEOServicesSection from "../seo/SEOServicesSection";
+import HiringAndPlacementServices from "../hiringandplacement/HiringAndPlacementServices";
 
 export default function Main() {
   return (
@@ -24,6 +25,7 @@ export default function Main() {
       <WhyChooseUsSection />
       <DigitalServicesSection />
       <SEOServicesSection />
+      <HiringAndPlacementServices />
     </Box>
   );
 }
