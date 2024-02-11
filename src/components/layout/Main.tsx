@@ -18,6 +18,7 @@ export default function Main() {
       <ServiceCategorySection />
       <LaunchProjectSection />
       <OurStorySection />
+      <WhyChooseUsSection />
     </Box>
   );
 }
