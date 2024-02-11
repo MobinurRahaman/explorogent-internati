@@ -6,6 +6,7 @@ import LaunchProjectSection from "../launchproject/LaunchProjectSection";
 import OurStorySection from "../ourstory/OurStorySection";
 import WhyChooseUsSection from "../whychooseus/WhyChooseUsSection";
 import DigitalServicesSection from "../digitalservices/DigitalServicesSection";
+import SEOServicesSection from "../seo/SEOServicesSection";
 
 export default function Main() {
   return (
@@ -22,6 +23,7 @@ export default function Main() {
       <OurStorySection />
       <WhyChooseUsSection />
       <DigitalServicesSection />
+      <SEOServicesSection />
     </Box>
   );
 }
