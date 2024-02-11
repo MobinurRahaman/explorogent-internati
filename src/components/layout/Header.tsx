@@ -9,7 +9,7 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    gap: { xs: "16px", sm: "32px", md: "64px", lg: "128px", xl: "280px" },
+    gap: { xs: "16px", sm: "36px", md: "100px", lg: "205px", xl: "280px" },
   },
   logo: {
     flex: "0 0 auto",
