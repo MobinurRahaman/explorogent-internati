@@ -3,6 +3,7 @@ import React from "react";
 import LandingSection from "../landing/LandingSection";
 import ServiceCategorySection from "../servicecategory/ServiceCategorySection";
 import LaunchProjectSection from "../launchproject/LaunchProjectSection";
+import OurStorySection from "../ourstory/OurStorySection";
 
 export default function Main() {
   return (
@@ -16,6 +17,7 @@ export default function Main() {
       <LandingSection />
       <ServiceCategorySection />
       <LaunchProjectSection />
+      <OurStorySection />
     </Box>
   );
 }
