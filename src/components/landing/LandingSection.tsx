@@ -16,7 +16,9 @@ export default function LandingSection() {
         borderRadius: "25px 25px 0px 0px",
       }}
     >
-      <Box sx={{ mt: "14px", maxWidth: "675px" }}>
+      <Box
+        sx={{ mt: "14px", maxWidth: { xs: "none", sm: "675px", md: "900px" } }}
+      >
         <Typography
           component="h1"
           variant="h2"
