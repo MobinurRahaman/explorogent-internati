@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import LandingSection from "../landing/LandingSection";
+import ServiceCategorySection from "../servicecategory/ServiceCategorySection";
 
 export default function Main() {
   return (
@@ -12,6 +13,7 @@ export default function Main() {
       }}
     >
       <LandingSection />
+      <ServiceCategorySection />
     </Box>
   );
 }
