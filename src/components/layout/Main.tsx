@@ -4,6 +4,8 @@ import LandingSection from "../landing/LandingSection";
 import ServiceCategorySection from "../servicecategory/ServiceCategorySection";
 import LaunchProjectSection from "../launchproject/LaunchProjectSection";
 import OurStorySection from "../ourstory/OurStorySection";
+import WhyChooseUsSection from "../whychooseus/WhyChooseUsSection";
+import DigitalServicesSection from "../digitalservices/DigitalServicesSection";
 
 export default function Main() {
   return (
@@ -19,6 +21,7 @@ export default function Main() {
       <LaunchProjectSection />
       <OurStorySection />
       <WhyChooseUsSection />
+      <DigitalServicesSection />
     </Box>
   );
 }
